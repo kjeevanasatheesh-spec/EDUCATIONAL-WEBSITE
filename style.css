@@ -83,7 +83,6 @@ margin:40px;
 
 .box{
 background:#0066cc;
-color:white;
 width:180px;
 padding:20px;
 border-radius:10px;
@@ -91,10 +90,19 @@ text-align:center;
 box-shadow:0 0 10px gray;
 }
 
-.box h1{
+.box h2{
 margin:0;
 font-size:35px;
+color:white;
+font-weight:bold;
 }
+
+.box p{
+color:white;
+font-size:18px;
+margin-top:10px;
+}
+
 footer{
 background:#222;
 color:white;
@@ -110,14 +118,6 @@ margin-top:40px;
     border: none;
     border-radius: 50%;
     cursor: pointer;
-}
-.hero{
-    background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url("images/building.jpg");
-    background-size:cover;
-    background-position:center;
-    color:white;
-    text-align:center;
-    padding:120px 20px;
 }
 
 .hero h1{
@@ -192,13 +192,6 @@ button:hover{
     text-align:center;
     padding:50px;
 }
-.gallery-container{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    padding: 20px;
-}
 
 .card{
     width: 250px;
@@ -222,12 +215,6 @@ button:hover{
 .card p{
     padding: 0 10px 15px;
     color: #555;
-}
-.gallery-container{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    padding: 20px;
 }
 
 .card{
